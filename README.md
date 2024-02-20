@@ -31,4 +31,88 @@ Check out the H2O Wave app here: [H2O Wave App Preview](<[demo videos/Waveapp.mk
 
 1. **Clone the repository:**
 ```bash
-git clone <repository-url>
+git clone https://github.com/isurulkh/Movie-Recommender-System_using_h2o-wave.git
+```
+
+2.**Create a virtual environment:**
+
+```bash
+python -m venv venv
+
+```
+3.**Create a virtual environment:**
+
+**Windows**
+```bash
+.\venv\Scripts\activate
+```
+
+**Mac**
+```bash
+source venv/bin/activate
+```
+
+4.**Install dependencies:**
+
+```bash
+pip install -r requirements.txt
+
+```
+
+5.**Downloading Models**
+
+```bash
+python download_models.py
+
+```
+
+### Downloading Models Manually
+
+Before running the applications, you need to download the necessary model files manually and place them in the `Models` folder within your project directory. Follow the steps below:
+
+1. **Create a `Models` folder in your project directory** if it does not already exist.
+
+2. **Download the model files** from the following Google Drive links:
+   - Model Files: [Download Link](<[Google-Drive-Link-1](https://drive.google.com/file/d/1csjCuVtLILvv-AfGzwgl_G4jnkkuV8vD/view?usp=drive_link)>)
+
+3. **Move the downloaded files to the `Models` folder.**
+
+Ensure all model files are correctly placed in the `Models` folder before proceeding to run the applications.
+
+### Running the Applications
+
+After setting up the environment and downloading the necessary model files, you are ready to run the applications.
+
+#### H2O Wave Application
+
+1. **Start the H2O Wave Server:** Navigate to your project directory in the terminal, ensure your virtual environment is activated, and run the following command:
+   ```bash
+   wave run app.py
+   ```
+**This command starts the H2O Wave server and serves your application.**
+
+👉Access the Application: Open a web browser and navigate to http://localhost:10101/demo to interact with the H2O Wave application. You should see the interface for selecting movies and receiving recommendations.
+
+
+#### Streamlit Application
+
+👉Run the Streamlit App: In a new terminal window or tab, navigate to your project directory, activate the virtual environment, and execute the following command:
+ ```bash
+streamlit run streamlitapp.py
+ ```
+
+
+#### Usage
+ **H2O Wave Application**
+ 
+👉Select a Movie: Use the dropdown menu to choose a movie you like or are interested in.
+👉Get Recommendations: Click the "Show Recommendations" button to see a list of recommended movies based on your selection. The recommendations will include movie posters and titles.
+
+
+**Streamlit Application**
+
+👉Movie Selection: Similar to the H2O Wave app, start by selecting a movie from the dropdown list.
+👉Viewing Recommendations: After selecting a movie, the app will display a list of recommended movies, including their posters and additional details, depending on the app's design.
+
+
+👉Both applications leverage the same underlying model for recommendations but offer different user interfaces and experiences. You can explore both to see which one you prefer or to compare their functionalities.
