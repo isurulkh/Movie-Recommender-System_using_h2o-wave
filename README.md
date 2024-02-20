@@ -13,9 +13,7 @@ This project provides a personalized movie recommendation service, utilizing a p
 
 ### Streamlit App Preview
 
-Watch the Streamlit app in action here: 
-
-
+Watch the Streamlit app in action here: [Streamlit App Preview](<Streamlit-Video-URL>)
 
 ### H2O Wave App Preview
 
