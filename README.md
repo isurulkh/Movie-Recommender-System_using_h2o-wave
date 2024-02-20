@@ -17,7 +17,7 @@ Watch the Streamlit app in action here: [Streamlit App Preview](<https://github.
 
 ### H2O Wave App Preview
 
-Check out the H2O Wave app here: [H2O Wave App Preview](<Wave-Video-URL>)
+Check out the H2O Wave app here: [H2O Wave App Preview](<[demo videos/Waveapp.mkv](https://github.com/isurulkh/Movie-Recommender-System_using_h2o-wave/blob/63dc9ac4f10d2be7c16958294c770d2113c7f382/demo%20videos/Waveapp.mkv)>)
 
 ## Getting Started
 
