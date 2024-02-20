@@ -59,13 +59,6 @@ pip install -r requirements.txt
 
 ```
 
-5.**Downloading Models**
-
-```bash
-python download_models.py
-
-```
-
 ### Downloading Models Manually
 
 Before running the applications, you need to download the necessary model files manually and place them in the `Models` folder within your project directory. Follow the steps below:
