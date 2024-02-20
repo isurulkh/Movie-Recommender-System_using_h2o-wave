@@ -91,7 +91,7 @@ After setting up the environment and downloading the necessary model files, you 
 
 👉Run the Streamlit App: In a new terminal window or tab, navigate to your project directory, activate the virtual environment, and execute the following command:
  ```bash
-streamlit run streamlitapp.py
+streamlit run steamliteapp.py
  ```
 
 
