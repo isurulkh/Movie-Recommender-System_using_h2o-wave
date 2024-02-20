@@ -66,7 +66,7 @@ Before running the applications, you need to download the necessary model files 
 1. **Create a `Models` folder in your project directory** if it does not already exist.
 
 2. **Download the model files** from the following Google Drive links:
-   - Model Files: [Download Link](https://drive.google.com/file/d/1csjCuVtLILvv-AfGzwgl_G4jnkkuV8vD/view?usp=drive_link).
+   - Model Files: [Download Link]([https://drive.google.com/file/d/1csjCuVtLILvv-AfGzwgl_G4jnkkuV8vD/view?usp=drive_link](https://drive.google.com/drive/folders/1pmRVtDOvgXBaElzXPYxVsAUNMGxzS1Iu?usp=sharing)).
 
 3. **Move the downloaded files to the `Models` folder.**
 
